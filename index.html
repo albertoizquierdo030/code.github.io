@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oh Cake</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="shortcut icon" href="imagenes/logo.png"/>    <!--Logo de la pestaña-->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet"><!--Tipografía Kanit-->
+  <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet"><!--Tipografía Promt-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> <!--Iconos con bootstrap-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+
+</head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+<body>
+  
+</body>
+</html>
+  <body>
+    <div class="container-fluid" id="superior">
+      <div class="row">
+        <div class="col-12" id="cuadricula">
+        <img src="imagenes/cuadri.png" class="w-100">
+      </div>
+      </div>
+    </div>
+
+    <!--INICIO MENÚ RESPONSIVE-->
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand hidden-lg-up" href="#superior"><img src="imagenes/logo.png" style="height: 80px;"></a>
+
+      <div class="collapse navbar-collapse super" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link mr-4" href="#descargar" id="menu">Descarga ya</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#catalogo" id="menu">Catálogo</a>
+          </li>
+        </ul>
+        <a class="navbar-brand hidden-md-down mx-5" href="#superior"><img src="imagenes/logo.png" style="height: 100px;"></a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link mr-4" href="#contacto" id="menu">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#visitanos" id="menu">Visítanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--FIN MENÚ RESPONSIVE-->
+
+    <!--INICIO CARRUSEL PRIMERO-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active" style="background-image:url('imagenes/david-holifield-g5bgYkKa8y0-unsplash.jpg');">
+          <div class="carousel-caption d-md-block animated zoomIn">
+              <h3 class="animated bounceInRight" style="animation-delay: 1s;" id="titulo">CUSTOMIZA TU TARTA</h3>
+              <p class="animated bounceInLeft" style="animation-delay: 2s;">En Oh Cake podrás customizar una tarta a tu gusto y ver el resultado final.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image:url('imagenes/kelly-neil-eZX1D12IS9w-unsplash.jpg');">
+          <div class="carousel-caption d-md-block animated zoomIn">
+            <h3 class="animated bounceInRight" style="animation-delay: 1s;" id="titulo">Para toda la familia</h3>
+            <p class="animated bounceInLeft" style="animation-delay: 2s;">En nuestro catálogo podrás encontrar tartas de todas las formas y sabores.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image:url('imagenes/deva-williamson-K2ZFPgTjMDI-unsplash.jpg');">
+          <div class="carousel-caption d-md-block animated zoomIn">
+            <h3 class="animated bounceInRight" style="animation-delay: 1s;" id="titulo">Todo tipo de Muffins</h3>
+            <p class="animated bounceInLeft" style="animation-delay: 2s;">También dispondrás de una gran variedad de nuestros mejores muffins y cupcakes.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!--FIN CARRUSEL INICIO-->
+
+    <!--INICIO APARTADO DESCARGA YA-->
+
+      <main class="container mt-5 " id="descargar">
+        <br>
+        <section class="container">
+          <h2>DESCARGA YA</h2>
+          <h5>Descarga la app de forma gratuita</h5>
+       </section>
+  
+        <aside class="row mt-5">
+            <img  data-aos="fade-right" data-aos-duration="1400" class="col-lg-6 mb-4" src="imagenes/deficopia.png">
+        <article  data-aos="fade-left" data-aos-duration="1400" class="col-lg-6" id="texto">
+          <p class="text-justify rounded-pill"><h3>Instala ya la app de Oh Cake</h3><br><p>Podrás descargarla tanto para tu dispositivo Android como IOS, y disfrutarás de poder customizar tartas a tu gusto con tus ingredientes favoritos. </p></p>
+          <div class="row">
+            <a class="enlace-descarga" href="https://play.google.com/store/"><img class="col-lg-5 col-md-4 col-5 mt-3" src="imagenes/android.png" id="des"></a>
+            <a class="enlace-descarga" href="https://www.apple.com/es/app-store/"><img class="col-lg-5 col-md-4 col-5 mt-3" src="imagenes/ios.png" id="des"></a>
+        </div>
+        </article>
+       </aside>
+  
+      </main>
+
+      <!--FIN APARTADO DESCARGA YA-->
+
+
+      <!--INICIO APARTADO CATÁLOGO-->
+
+        <section class="container mt-4" id="catalogo">
+          <br>
+          <h2>CATÁLOGO</h2>
+          <h5>Hecha un vistazo a nuestro catálogo</h5>
+       </section>
+
+
+      <div class="container">
+        <div class="row clearfix mt-5" id="centrar-carta">
+
+            <div data-aos="fade-down" data-aos-duration="1400" class="col-lg-3 col-md-6 col-9" id="carta">
+                <div class="card product_item mb-5">
+                    <div class="body">
+                        <div class="cp_img">
+                            <img src="imagenes/tarta-galleta-corazon-4.png" alt="Tarta" class="img-fluid">
+                            <div class="hover">
+                                <a href="https://play.google.com/store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-android"></i></a>
+                                <a href="https://www.apple.com/es/app-store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-apple"></i></a>
+                            </div>
+                        </div>
+                        <div class="product_details">
+                            <h5><a href="#">Tarta RealFood con forma de corazón</a></h5>
+                            <ul class="product_price list-unstyled">
+                                <li class="new_price">25.99€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-down" data-aos-duration="1400" class="col-lg-3 col-md-6 col-9">
+                <div class="card product_item mb-5">
+                    <div class="body">
+                        <div class="cp_img">
+                            <img src="imagenes/tarta-de-especias-y-moras-blogeros-cocineros-2.png" alt="Product" class="img-fluid">
+                            <div class="hover">
+                                <a href="https://play.google.com/store/" class="btn btn-sm waves-effect"  id="boton-cartas"><i class="zmdi zmdi-android"></i></a>
+                                <a href="https://www.apple.com/es/app-store/" class="btn btn-sm waves-effect"  id="boton-cartas"><i class="zmdi zmdi-apple"></i></a>
+                            </div>
+                        </div>
+                        <div class="product_details">
+                            <h5><a href="#">Layercake saludable de fresas y moras</a></h5>
+                            <ul class="product_price list-unstyled">
+                                <li class="new_price">35.95€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-down" data-aos-duration="1400" class="col-lg-3 col-md-6 col-9">
+                <div class="card product_item mb-5">
+                    <div class="body">
+                        <div class="cp_img">
+                            <img src="imagenes/tarta-100-4.png" alt="Product" class="img-fluid">
+                            <div class="hover">
+                                <a href="https://play.google.com/store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-android"></i></a>
+                                <a href="https://www.apple.com/es/app-store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-apple"></i></a>
+                            </div>
+                        </div>
+                        <div class="product_details">
+                            <h5><a href="#">Layercake para alérgenos con cerezas</a></h5>
+                            <ul class="product_price list-unstyled">
+                                <li class="new_price">30.99€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-down" data-aos-duration="1400" class="col-lg-3 col-md-6 col-9">
+                <div class="card product_item mb-5">
+                    <div class="body">
+                        <div class="cp_img">
+                            <img src="imagenes/tarta-mousse-chocolate-y-fresas-4.png" alt="Product" class="img-fluid">
+                            <div class="hover">
+                                <a href="https://play.google.com/store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-android"></i></a>
+                                <a href="https://www.apple.com/es/app-store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-apple"></i></a>
+                            </div>
+                        </div>
+                        <div class="product_details">
+                            <h5><a href="#">Tarta mouse de chocolate, fresas y moras</a></h5>
+                            <ul class="product_price list-unstyled">
+                                <li class="new_price">20.90€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1400" class="col-lg-3 col-md-6 col-9">
+                <div class="card product_item mb-5">
+                    <div class="body">
+                        <div class="cp_img">
+                            <img src="imagenes/Cupcakes-Bunting-9.png" alt="Product" class="img-fluid">
+                            <div class="hover">
+                                <a href="https://play.google.com/store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-android"></i></a>
+                                <a href="https://www.apple.com/es/app-store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-apple"></i></a>
+                            </div>
+                        </div>
+                        <div class="product_details">
+                            <h5><a href="#">Cupcakes de frambuesas</a></h5>
+                            <ul class="product_price list-unstyled">
+                                <li class="new_price">9.90€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1400" class="col-lg-3 col-md-6 col-9">
+                <div class="card product_item mb-5">
+                    <div class="body">
+                        <div class="cp_img">
+                            <img src="imagenes/RecetaCupcakesLima1-cookcakesdeainhoa.png" alt="Product" class="img-fluid">
+                            <div class="hover">
+                                <a href="https://play.google.com/store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-android"></i></a>
+                                <a href="https://www.apple.com/es/app-store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-apple"></i></a>
+                            </div>
+                        </div>
+                        <div class="product_details">
+                            <h5><a href="#">Cupcakes lima y canela</a></h5>
+                            <ul class="product_price list-unstyled">
+                                <li class="new_price">14.99€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div data-aos="fade-up" data-aos-duration="1400" class="col-lg-3 col-md-6 col-9">
+                <div class="card product_item mb-5">
+                    <div class="body">
+                        <div class="cp_img">
+                            <img src="imagenes/IMG_1573ainhoa.png" alt="Product" class="img-fluid">
+                            <div class="hover">
+                                <a href="https://play.google.com/store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-android"></i></a>
+                                <a href="https://www.apple.com/es/app-store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-apple"></i></a>
+                            </div>
+                        </div>
+                        <div class="product_details">
+                            <h5><a href="#">Cupcakes nata y virutas</a></h5>
+                            <ul class="product_price list-unstyled">
+                                <li class="new_price">15.90€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1400" class="col-lg-3 col-md-6 col-9">
+                <div class="card product_item mb-5">
+                    <div class="body">
+                        <div class="cp_img">
+                            <img src="imagenes/molde-drapeado-Squires-Kitchen6.png" alt="Product" class="img-fluid">
+                            <div class="hover">
+                                <a href="https://play.google.com/store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-android"></i></a>
+                                <a href="https://www.apple.com/es/app-store/" class="btn btn-sm waves-effect" id="boton-cartas"><i class="zmdi zmdi-apple"></i></i></a>
+                            </div>
+                        </div>
+                        <div class="product_details">
+                            <h5><a href="#">Cupcakes fresa y gelatina</a></h5>
+                            <ul class="product_price list-unstyled">
+                                <li class="new_price">19.99€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FIN APARTADO CATÁLOGO-->
+
+    <!--INICIO DE CONTACTO-->
+
+    <div id="contacto" class="mt-4">
+      <br>
+      <br>
+      <section class="container mb-3">
+        <h2>CONTACTO</h2>
+        <h5>Ponte en contacto con nosotros</h5>
+     </section>
+
+     <div class="container">
+      <aside class="row">
+        <form data-aos="flip-up" data-aos-duration="1400" action="correo.php" method="POST" class="col-lg-6 col-md-6 col-12 mt-3 px-0">
+          <div class="form-row">
+            <div class="col-lg-12 col-md-12 col-10 mb-3">
+              <!-- <label for="validationDefault01">Nombre</label> -->
+            <input type="text" name="name" class="inputPlaceholder" id="correo" placeholder="  Introduzca su nombre" minlength="3" maxlength="20" value="" required pattern="[A-Za-z]+">
+          </div>
+          </div>
+          <div class="form-row">
+            <div class="col-lg-12 col-md-12 col-10 mb-3">
+              <!-- <label for="validationDefault01">Correo electrónico</label> -->
+            <input type="email" name="email" class="inputPlaceholder" id="correo" placeholder="  Introduzca su correo" value="" required>
+          </div>
+          </div>
+          <div class="form-row">
+            <div class="col-lg-12 col-md-12 col-10 mb-3">
+            <!-- <label class="form-label" for="textAreaExample">Mensaje</label> -->
+            <textarea class="inputPlaceholder" name="msg" id="textAreaExample" placeholder="  ¿Qué necesitas?" minlength="10" maxlength="200
+            "required></textarea>
+            </div>
+          </div>
+          <div class="row text-center justify-content-center mt-2">
+              <div class="col-lg-8 col-md-6 col-6">
+                  <input type="submit" class="btn for" name="enviar" value="Enviar" id="enviar" />
+              </div>
+          </div>
+        </form>
+      
+      <article data-aos="flip-down" data-aos-duration="1400" class="col-lg-6 col-md-6 col-12 text-center" id="texto">
+        <p class="text-justify rounded-pill"><h3>Ponte en contacto</h3>
+          <p class="mb-0">697 687 674</p>
+          <p class="mb-0">ohCake@gmail.com</p>
+          <p>23700 Linares (Jaén)</p>
+          <h3>Horario</h3>
+          <p class="mb-0">Lunes - Jueves   08:00 - 20:00</p>
+          <p class="mb-0">Viernes - Sábado   08:00 - 16:00</p>
+          <p>Domingo   10:00 - 13:00</p>
+        </p>
+      </article>
+     </aside>
+    </div>
+    <br>
+    <br>
+  </div>
+
+    <!--FIN DE CONTACTO-->
+
+    <!--INICIO VISÍTANOS-->
+
+    <section class="container mt-4 mb-5" id="visitanos">
+      <br>
+      <h2>VISÍTANOS</h2>
+      <h5>Localiza la ubicación de nuestra tienda</h5>
+   </section>
+  
+    <article data-aos="zoom-in" data-aos-duration="1400" class="container mb-4">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25118.64579869593!2d-3.6487036246756945!3d38.09760377382647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6e9b2e06c12ff1%3A0x94b7e048506cc0f8!2s23700%20Linares%2C%20Ja%C3%A9n!5e0!3m2!1ses!2ses!4v1650282450725!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </article>
+
+    <!--FIN DE VISÍTANOS-->
+
+   <!--INICIO FOOTER-->
+
+
+<footer data-aos="fade-up" data-aos-duration="1400">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 footer-fila mt-5">
+        <a href="#superior"><img src="imagenes/logo.png" class="img-fluid" style="height: 150px;"></a>
+      </div>
+      <div class="col-lg-4 col-md-4 mt-5" id="iconos">
+        <ul class="list-unstyled lista mb-0 text-center" id="lista">
+          <li><a class="footer-link" href="https://twitter.com/"><img src="imagenes/gorjeo (1).png"></a></li>
+          <li><a class="footer-link" href="https://www.whatsapp.com/"><img src="imagenes/whatsapp (2).png"></a></li>
+          <li><a class="footer-link" href="https://es-es.facebook.com/"><img src="imagenes/facebook (2).png"></a></li>
+          <li><a class="footer-link" href="https://www.instagram.com/"><img src="imagenes/instagram (3).png"></a></li>
+          <li><a class="footer-link" href="https://www.tiktok.com/"><img src="imagenes/tik-tok.png"></a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-4 apps mt-5">
+        <ul class="list-unstyled mb-0 text-center">
+          <li><a href="https://play.google.com/store/"><img class="col-lg-8 col-md-10 col-5" src="imagenes/android.png"></a></li>
+          <li><a href="https://www.apple.com/es/app-store/"><img class="col-lg-8 col-md-10 col-5 mt-3" src="imagenes/ios.png"></a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <div class="row justify-content-center my-4">
+        <div class="col-lg-6">
+          <p class="small text-center mb-0" id="realizado">© 2022 - Realizado por: Oh Cake</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--FIN DE FOOTER-->
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12" id="cuadricula">
+    <img src="imagenes/cuadri.png" class="w-100" id="hola">
+  </div>
+  </div>
+</div>
+
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
